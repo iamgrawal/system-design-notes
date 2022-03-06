@@ -1,0 +1,7 @@
+### Obsidian ###
+# config dir
+.obsidian/
+.trash/
+
+## Mac files
+.DS_Store
