@@ -141,11 +141,11 @@ Halvision releases the open-source **Secure Reliable Transport (SRT)** protocol,
 
 ### HTTP Protocols
 
-![[Pasted image 20220306010008.png]]
+![[http1-1.1-2.3.png]]
 
 ### Multiplexing
 
-![[Pasted image 20220306014639.png]]
+![[http1.1vs2.png]]
 
 ### TCP vs UDP
 
@@ -179,7 +179,7 @@ Video Tag + MediaSource
 
 ### Comparison table for popular video players
 
-![[Pasted image 20220306020906.png]]
+![[types-of-video-players.png]]
 
 ### Component Design
 
@@ -244,6 +244,6 @@ Think of these things before designing the components
 }
 ```
 
-### Backend for the frontend
+### Backend architecture
 
-![[Pasted image 20220306023120.png]]
+![[netflix-architecture.png]]
