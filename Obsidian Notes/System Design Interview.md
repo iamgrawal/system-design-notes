@@ -1,5 +1,12 @@
 # FE SD Interview
 
+---
+
+created: 06-Mar-2022
+tags: #frontend-system-design #frontend #system-design
+
+---
+
 ## Index
 
 [[#Types of FE System Design Interviews]]

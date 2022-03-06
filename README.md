@@ -9,10 +9,13 @@ For best experience use it in obsidian.
 - HTTP 1.1 vs HTTP 2 ![[http1.1vs2.png]]
 
 ## System Design Notes
-
-- Backlinks: ![[Front End System Design#Back links]]
+![[Front End System Design#Front End System Design]]
 
 ## Excali draw files
 
 - Coinbase Pro App Structure: [[Coinbase Pro App.excalidraw]]
 - types of http protocols: [[HTTP 1_1.1_2_3.excalidraw]]
+
+### Blogs
+
+- [https://pietropassarelli.com/front-end-system-design.html](https://pietropassarelli.com/front-end-system-design.html)

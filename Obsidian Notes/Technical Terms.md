@@ -1,5 +1,12 @@
 # Technical Terms
 
+---
+
+created: 06-Mar-2022
+tags: #frontend-system-design #frontend #system-design
+
+---
+
 ## Index
 
 - [[#Architectural Patterns]]
