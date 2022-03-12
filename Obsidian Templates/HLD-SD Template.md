@@ -24,11 +24,34 @@ tags: #frontend-system-design #frontend #system-design
 
 #### Functional Requirements
 
-> Business requirements
+> Understand Business requirements and Customer Needs
+> What modules/features can be provided to our customers?
+> Capabilities that will drive revenue/impact
 
 #### Non-Functional Requirements
 
 > UI working requirements
+>
+> A few examples are as follows:
+>
+> - Mobile/Desktop
+> - Responsive/Adaptive
+> - Internet/Location/Devices
+> - Accessibility
+> - Asset optimization
+> - Performance
+> - CSR/SSR
+> - Authentication/Authorization
+> - Security
+> - Caching
+> - Offline Support
+> - Logging & Monitoring
+> - A/B testing
+> - Testing
+> - Internationalization/Localization
+> - Versioning
+> - PWA
+> - CI/CD
 
 ### Scoping the requirements
 
