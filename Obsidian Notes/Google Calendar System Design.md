@@ -148,6 +148,7 @@ https://medium.com/@khriziakamille/design-patterns-of-google-calendar-fa2823537b
 - [https://stackoverflow.com/questions/12611/designing-a-calendar-system-like-google-calendar](https://stackoverflow.com/questions/12611/designing-a-calendar-system-like-google-calendar)
 
 ### References:
+- Creating Scheduled Push Notifications: [https://css-tricks.com/creating-scheduled-push-notifications/](https://css-tricks.com/creating-scheduled-push-notifications/)
 - Notification Triggers: [https://web.dev/notification-triggers/](https://web.dev/notification-triggers/)
 - [https://css-tricks.com/hey-lets-create-a-functional-calendar-app-with-the-jamstack/](https://css-tricks.com/hey-lets-create-a-functional-calendar-app-with-the-jamstack/)
 - Web Notification API: [https://notifications.spec.whatwg.org/](https://notifications.spec.whatwg.org/)
