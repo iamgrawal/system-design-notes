@@ -32,3 +32,12 @@ _Networks aren't reliable, so you'll need to support partition tolerance. You'll
 	- If partition then available or consistency else Latency or Consistency 
 - **Amazon's PIE Theorem**
 	- Pattern Flexibility, Infinite Scale and Efficiency in choosing different distributed system in AWS
+
+### Rapids, Rivers and Ponds Analogy
+Rapids, Rivers and Ponds is a design pattern that Fred George came up in 2014.
+![[Pasted image 20220401000428.png]]
+
+Use Case:
+Ride Sharing Organisation:
+
+![[Pasted image 20220401000615.png]]
