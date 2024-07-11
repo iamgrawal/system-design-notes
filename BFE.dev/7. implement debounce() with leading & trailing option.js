@@ -26,8 +26,9 @@ function debounce(func, wait, option = { leading: false, trailing: true }) {
     }
     if (!timer && option.leading) {
       func.apply(this, args);
+    } else {
+      lastArgs = args;
     }
-    lastArgs = args;
     timer = setTimeout(conditionCheck, wait);
   };
 }
