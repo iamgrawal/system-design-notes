@@ -9,7 +9,11 @@ For best experience use it in obsidian.
 - HTTP 1.1 vs HTTP 2 ![[http1.1vs2.png]]
 
 ## System Design Notes
+
 ![[Front End System Design#Front End System Design]]
+
+## Interview Questions
+
 
 ## Excali draw files
 

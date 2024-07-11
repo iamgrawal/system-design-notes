@@ -2,6 +2,7 @@
 # config dir
 .obsidian/
 .trash/
+.yarn/
 
 ### Mac files ###
 .DS_Store

@@ -122,7 +122,7 @@ tags: #frontend-system-design #frontend #system-design
 #### Data API & Protocols & Implementations
 
 - Protocols
-  - REST / GraphQL/SSE/rPE
+  - REST / GraphQL/SSE/RPC
   - JSON/Protocol Buffers
 - Implementation Details
   - _Pagination/Infinite Scrolls_

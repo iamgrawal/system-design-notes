@@ -41,3 +41,7 @@ Use Case:
 Ride Sharing Organisation:
 
 ![[Pasted image 20220401000615.png]]
+
+### Different Types of Caching
+- Embedded Cache
+- 
