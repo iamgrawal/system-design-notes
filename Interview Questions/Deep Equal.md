@@ -1,30 +1,19 @@
 # Deep Equal
 
-Premium
+---
 
-Author
+Author: [Zhenghao He](https://www.linkedin.com/in/zhenghao-he/)
+[Linkedin](https://www.linkedin.com/in/zhenghao-he/)
 
-[![Zhenghao He](https://www.greatfrontend.com/img/team/zhenghao.jpg)](https://www.linkedin.com/in/zhenghao-he/)
+Languages: #JS #TS
 
-[Zhenghao He](https://www.linkedin.com/in/zhenghao-he/)[](https://www.linkedin.com/in/zhenghao-he/)
+Difficulty: Medium
 
-Senior Engineer, Ex-Amazon
+Recommended duration to spend during interviews: 25 mins
 
-Languages
+---
 
-JSTS
-
-Difficulty
-
-Medium
-
-Recommended duration to spend during interviews
-
-25 mins
-
-Users completed
-
-1140 completed
+## Description
 
 Implement a function `deepEqual` that performs a deep comparison between two values. It returns `true` if two input values are deemed equal, and returns `false` if not.
 
@@ -44,13 +33,8 @@ deepEqual([{ id: '1' }], [{ id: '2' }]); // false
 # Similar Questions
 
 - [Deep Clone](https://www.greatfrontend.com/questions/javascript/deep-clone)
-    
-    Difficulty
-    
-    Medium
-    
+  Difficulty
+  Medium
 - [Deep Clone II](https://www.greatfrontend.com/questions/javascript/deep-clone-ii)
-    
-    Difficulty
-    
-    Hard
+  Difficulty
+  Hard

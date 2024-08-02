@@ -1,32 +1,21 @@
 # Like Button
 
-Premium
+---
 
-FrameworkReactVanilla JSAngularSvelte
+Framework: #React #VanillaJS #Angular #Svelte
 
-Author
+Author: [Yangshun Tay](https://www.linkedin.com/in/yangshun)
+[Linkedin:](https://www.linkedin.com/in/yangshun)
 
-[![Yangshun Tay](https://www.greatfrontend.com/img/team/yangshun.jpg)](https://www.linkedin.com/in/yangshun)
+Languages: #HTML #CSS #JS
 
-[Yangshun Tay](https://www.linkedin.com/in/yangshun)[](https://www.linkedin.com/in/yangshun)
+Difficulty: Medium
 
-Ex-Meta Staff Engineer
+Recommended duration to spend during interviews: 20 mins
 
-Languages
+----
 
-HTMLCSSJS
-
-Difficulty
-
-Medium
-
-Recommended duration to spend during interviews
-
-20 mins
-
-Users completed
-
-790 completed
+## Description
 
 Create a Like button which appearance changes based on the following states:
 

@@ -18,7 +18,7 @@ Report an issue
 
 ## Companies
 
-AirbnbLyftTwitter
+Airbnb, Lyft, Twitter
 
 ---
 
