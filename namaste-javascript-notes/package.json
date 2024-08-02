@@ -1,0 +1,28 @@
+{
+  "name": "namaste-javascript-notes",
+  "version": "3.1.0",
+  "description": "> This repo maintains my version of javascript notes which I learned from the famous [Namaste Javascript Youtube Series](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&index=1&ab_channel=AkshaySaini) by Akshay Saini.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git-cz",
+    "build": "node generatePdf && generate-md --layout markedapp-byword --input ./notes/lectures.md --output ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alok722/namaste-javascript-notes.git"
+  },
+  "author": "Alok Raj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alok722/namaste-javascript-notes/issues"
+  },
+  "homepage": "https://github.com/alok722/namaste-javascript-notes#readme",
+  "dependencies": {
+    "markdown-styles": "^3.2.0",
+    "pretty-markdown-pdf": "^1.5.2",
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  }
+}
