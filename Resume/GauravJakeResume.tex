@@ -1,0 +1,236 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Gaurav Rawal} \\ \vspace{1pt}
+    \small \href{https://iamgrawal.netlify.app}{iamgrawal.netlify.app} $|$ 
+    \href{mailto:gaurav.rawal66@gmail.com}{gaurav.rawal66@gmail.com} $|$ +918860832914
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingHeading
+      {Founding Software Engineer -- Arcana Analytics}{July 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the development of a comprehensive app platform for investors, featuring asset details, portfolio management, and dashboard customization using \textbf{Next.js}, \textbf{TypeScript}, \textbf{React} and \textbf{Highcharts}}
+        \resumeItem{Implemented high-performance frontend features, achieving an \textbf{85\% reduction in initial page load time (from 2s to 300ms)} and optimizing CPU resource consumption for chart rendering}
+        \resumeItem{Designed and developed a robust portfolio management system, enabling investors to track performance, risk, and crowding metrics, and make data-driven decisions}
+        \resumeItem{Migrated from \textbf{React Table} to \textbf{Glide Apps}, significantly improving grid performance for large datasets and enhancing overall user experience}
+        \resumeItem{Spearheaded product pivot from crypto to Traditional Finance assets, implementing comprehensive portfolio management system with 13F filings and ETF data integration}
+        \resumeItem{Optimized performance by migrating state management codebase from \textbf{React Context} and \textbf{Apollo Reactive Variables} to \textbf{Zustand}, and implemented React performance tweaks, \textbf{Server-Side Rendering (SSR)}, and caching for frequently accessed data}
+        \resumeItem{Collaborated with the team to establish a robust project architecture, integrating \textbf{Chakra UI} for design systems, and ensuring accessibility compliance and user-friendly features like auto-refreshing and pagination}
+      \resumeItemListEnd
+
+    \resumeSubheadingHeading
+      {Software Engineer -- Tesco}{Nov 2020 -- June 2022}
+      \resumeItemListStart
+        \resumeItem{Developed a unified help-desk platform for global users, streamlining account management, requests, software catalogues, and knowledge base access}
+        \resumeItem{Migrated the platform to a \textbf{mono-repo architecture} with shared UI libraries using \textbf{styled components} and \textbf{React}, enhancing maintainability and consistency}
+        \resumeItem{Designed and implemented an exportable design system \textbf{UI library} for internal Tesco teams, ensuring adherence to Tesco Design System standards}
+        \resumeItem{Built complex, reusable components (Accordion, pagination, Modal, Tabs) with inspiration from \textbf{Chakra UI}, \textbf{Material UI}, and \textbf{Github Primer}, and wrote comprehensive test cases using \textbf{Jest} and \textbf{React Testing Library}}
+        \resumeItem{Integrated \textbf{React Intl} for multi-lingual support, expanding platform accessibility}
+        \resumeItem{Created an \textbf{Admin portal} for the product managers, educing engineering team dependency by \textbf{60\%} and enhancing operational efficiency.}
+      \resumeItemListEnd
+
+    \resumeSubheadingHeading
+      {Software Engineer -- Unilodgers}{August 2019 -- Nov 2020}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the migration of a student housing platform from \textbf{PHP} to \textbf{React} and \textbf{Ruby on Rails}, introducing state management with React Context}
+        \resumeItem{Designed and developed an internal admin dashboard for role management, ticketing, and request handling, streamlining internal operations}
+        \resumeItem{Redesigned the frontend UI to mirror AirBnb's design, enhancing user experience and engagement}
+        \resumeItem{Developed an NPM library for text component height cropping, addressing compatibility issues with line-clamp}
+        \resumeItem{Implemented \textbf{Server-Side Rendering (SSR)} using \textbf{React Hydration} and \textbf{React Server}, improving performance and \textbf{SEO}}
+        \resumeItem{Successfully performed a cross-account, cross-region system migration on \textbf{AWS} with zero downtime, ensuring seamless business continuity}
+        \resumeItem{Built a multi-user WhatsApp client using \textbf{React} and \textbf{Phoenix}, enabling efficient customer support management through an internal dashboard and socket connection-based virtual windowing}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------INTERNSHIPS-----------
+\section{Internships}
+  \resumeSubHeadingListStart
+
+    \resumeSubheadingHeading
+      {Full Stack Developer Intern -- Auquan}{Jan 2019 -- May 2019}
+      \resumeItemListStart
+        \resumeItem{Built a data science competition platform using \textbf{React.js} and \textbf{Node.js}, enabling seamless collaboration and innovation}
+        \resumeItem{Designed and developed a business client dashboard for onboarding and managing quant analysis, featuring an in-house \textbf{data visualizer} library built with React}
+      \resumeItemListEnd
+    % ==== Add A New Page ====
+    \newpage
+
+    \resumeSubheadingHeading
+      {Full Stack Developer Intern -- Camp K12}{May 2018 -- Oct 2018}
+      \resumeItemListStart
+        \resumeItem{Created an intuitive online \textbf{browser-based IDE} for beginners to learn AI using building blocks, allowing for client-side model creation}
+        \resumeItem{Developed an event dashboard platform for a \textbf{blockchain event}, featuring a public forum, user profile management, and leaderboard}
+      \resumeItemListEnd
+
+    \resumeSubheadingHeading
+      {Full Stack Developer Intern -- Brandlitic}{Dec 2017 -- May 2018}
+      \resumeItemListStart
+        \resumeItem{Contributed to Pixorr, a Chrome extension search engine for design assets, by developing web crawlers, Chrome extension, and admin dashboard using JavaScript libraries}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  %-----------SKILLS-----------
+\section{Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+      \small{\item{
+      \textbf{Languages}{: JavaScript, TypeScript, Python, Ruby, HTML/CSS} \\
+      \textbf{Frameworks}{: React.js, Next.js, Node.js, Django, Vue.js, Express, Ruby on Rails} \\
+      \textbf{Libraries}{: Redux, Zustand, GraphQL, REST API, Chakra UI, Styled Components, Jest, Enzyme, React Testing Library} \\
+      \textbf{Tools}{: Git, Firebase, Highcharts, Glide apps}
+      }}
+  \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Devfest India} $|$ \emph{Vue.js, Node.js, Firestore, GCP Compute Engine, Google Data Studio, Redis DB}}{\href{https://https://devfestindia.com/}{\textbf{Link}}}
+      \resumeItemListStart
+        \resumeItem{Contributed to the development of a centralized website for Devfest India, a annual developer conference, as part of a 5-member team}
+        \resumeItem{Implemented frontend features using Vue.js, ensuring Material UI compliance for a seamless user experience}
+        \resumeItem{Developed a script to send notifications via WhatsApp using Gupshup API and email using SendGrid}
+        \resumeItem{Utilized Google Cloud cloud functions for serverless architecture, Firestore as a database, and GCP Compute Engine for data seeding}
+        \resumeItem{Implemented CI-CD pipelines for automated deployment and ensured performance optimization}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{WhatsApp Client} $|$ \emph{Node.js, Gupshup whatsapp api}}{\href{https://github.com/iamgrawal/whatsapp-business-api}{\textbf{Link}}}
+      \resumeItemListStart
+        \resumeItem{Designed and developed an internal dashboard cum WhatsApp client for customer support teams at Unilodgers}
+        \resumeItem{Implemented frontend features with infinite scroll pagination, virtual windowing, and image support}
+        \resumeItem{Utilized Phoenix framework (Elixir) for socket connection and implemented advanced window virtualization}
+        \resumeItem{Enabled customer support teams to efficiently manage enquiries and services via WhatsApp}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Music Maker} $|$ \emph{React.js, Node.js, Socket.io}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a real-time collaborative music-making platform for a Codelab at Google Developer Groups New Delhi's event Developer Days}
+        \resumeItem{Implemented socket connection for multiple users to join and create music together}
+        \resumeItem{Added keyboard-controlled musical keynotes with different sound generation for various instruments}
+        \resumeItem{Demonstrated expertise in socket connection and real-time collaboration}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Guru Gobind Singh Inderprastha University}{Aug 2015 -- May 2019}
+      {B.Tech in Computer Science}{CGPA: 8.01/10.00}
+      \resumeItem{}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+      \small{\item{
+      \textbullet{} \textbf{Community Organiser:} Google Developer Groups, New Delhi(2019-Present)\\
+      \textbullet{} \textbf{Speaker \& Judge} at various events\\
+      \textbullet{} \textbf{Event Host:} Devfest India 2021\\
+      \textbullet{} \textbf{Event Host:} Chrome Developer Summit Extended 2021\\
+      \textbullet{} \textbf{Chairperson:} at IIPC, The Entrepreneurship Cell, GTBIT (2018-2019)\\
+      \textbullet{} \textbf{Web Development Head:} at IEEE, GTBIT (2018-2019)\\
+      \textbullet{} \textbf{Hackathon Runner-up:} Cyber Security Hackathon By US Embassy 2017\\
+      \textbullet{} \textbf{Hackathon Runner-up:} Smart India Hackathon 2017\\
+      \textbullet{} \textbf{Hackathon Runner-up:} NPC India Hackathon 2016\\
+      \textbullet{} \textbf{Runner-up:} at Bug swat competition in Gates 2k16, cultural fest of GTBIT.
+      }}
+  \end{itemize}
+
+\end{document}

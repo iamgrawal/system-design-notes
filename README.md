@@ -10,7 +10,7 @@ For best experience use it in obsidian.
 
 ## System Design Notes
 
-![[Front End System Design#Front End System Design]]
+![[Obsidian Notes/README#Front End System Design]]
 
 ## Interview Questions
 
